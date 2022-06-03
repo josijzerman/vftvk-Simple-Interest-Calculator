@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+  background-color: black;
+  color:black;
+  font-family: Arial;
+  
+}  
 
 
+
+h1 {
+  color: grey;
+  font-family: verdana;
+}
+
+
+p{
+  text-indent: 17px;
+}
+
+.maindiv {
+  color: black;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  border-radius: 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 1vw;
+  width: 300px;
+}
+
+#footer {
+  position: absolute;
+  font-size: 15px;
+  right:auto;
+  top: 336px;  
+}
