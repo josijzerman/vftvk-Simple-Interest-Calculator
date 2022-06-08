@@ -6,9 +6,9 @@ function compute()
 
   var year = new Date().getFullYear()+parseInt(years);
   var amount = principal*Math.pow((1.0 + (rate /100.0)), years);
-  var result_html = "<p>Invalid Input</p>";
+  var result_html = "<p>Invalid Input, enter a positive number</p>";
 
-  if (principal != "")
+  if (principal != "" && principal > 0)
   {
     var result_html = "<p>If you deposit <b>" + principal + "</b>,</p><p>at an interest rate of <b>"+ rate + " %</b>.</p><p>You will receive an amount of <b>" + amount.toFixed(2) + ",</b></p><p>in the year <b>" + year + "</b></p>"
   }
